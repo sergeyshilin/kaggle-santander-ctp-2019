@@ -1,0 +1,3 @@
+[submodule "kaggle-framework"]
+	path = kaggle-framework
+	url = https://github.com/sergeyshilin/kaggle-competitions-framework.git
