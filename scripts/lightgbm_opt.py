@@ -125,6 +125,7 @@ def evaluate_cb(**params):
     params['max_depth'] = int(params['max_depth'])
     params['max_bin'] = int(params['max_bin'])
     params['min_data_in_leaf'] = int(params['min_data_in_leaf'])
+    params['bagging_freq'] = int(params['bagging_freq'])
     params['num_leaves'] = int(params['num_leaves'])
 
     start_params.update(params)
